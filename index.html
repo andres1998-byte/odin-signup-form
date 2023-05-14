@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
         </style>
@@ -15,6 +16,7 @@
                 <img src="odin-lined.png">
                 <div class="odin-heading">ODIN</div>
             </div>
+            <div class="credit">Photo by Halie West on Uplash</div>
         </div>
         <div class="notimage">
             <div class="firstpart">
@@ -25,14 +27,15 @@
             </div>
             <div class="secondpart">
                 <h1 class="letsdothis">Let's do this!</h1>
+                <form action="#">
                 <div class="row">
                     <div class="input">
                         <label for="firstname">FIRST NAME:</label>
-                        <input type="text" id="firstname" name="firstname" required>
+                        <input type="text" id="firstname" name="firstname" placeholder="Thor" required>
                     </div>
                     <div class="input">
                         <label for="lastname">LAST NAME:</label>
-                        <input type="text" id="lastname" name="lastname" required>
+                        <input type="text" id="lastname" name="lastname" placeholder="Odinson" required>
                     </div>
                 </div>
                 <div class="row">
@@ -53,11 +56,13 @@
                     <div class="input">
                         <label for="confpassword">CONFIRM PASSWORD:</label>
                         <input type="password" id="confpassword" name="confpassword" required>
+                        <p id="message" style="color:red"></p>
                     </div>
                 </div>
             </div>
             <div class="thirdpart">
                 <button type="submit">Create an account</button>
+                </form>
                 <div class="alreadytext">Already have an account? <a href="#">Log in</a></div>
 
             </div>

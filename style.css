@@ -32,6 +32,13 @@ img[src="odin-lined.png"]{
     color: white;
 }
 
+
+.credit {
+    color:white;
+    position:absolute;
+    bottom: 5px;
+    left: 5px;
+}
 .notimage {
     display:flex;
     flex-direction:column;
@@ -58,7 +65,7 @@ img[src="odin-lined.png"]{
 
 .secondpart {
     background-color: rgb(243, 246, 248);
-    height:35%;
+    height:40%;
     padding-right: 300px;
     padding-left: 60px;
     padding-top: 20px;
@@ -107,13 +114,17 @@ input:focus {
 button {
     height:50px;
     width: 200px;
-    background-color: rgb(76, 136, 76);
+    background-color: #596D48;
     border-radius: 5px;
     color:white;
     font-size: 17px;
     font-weight: 700;
     margin-bottom: 30px;
     border: none;
+}
+
+button:hover {
+    background-color: #3d4b31;
 }
 
 .alreadytext {
@@ -123,6 +134,12 @@ button {
 
 a {
     text-decoration: none;
-    color: rgb(25, 153, 14);
+    color: #596D48;
 
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(71, 26, 231);
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
