@@ -61,6 +61,7 @@ img[src="odin-lined.png"]{
     height:35%;
     padding-right: 300px;
     padding-left: 60px;
+    padding-top: 20px;
 }
 
 .letsdothis {
@@ -71,7 +72,7 @@ img[src="odin-lined.png"]{
 .row {
     display: flex;
     gap: 100px;
-    margin-bottom:17px;
+    margin-bottom:20px;
 }
 
 .input {
@@ -92,4 +93,36 @@ input {
 
 input:focus {
     border-color:blue;
+}
+
+.thirdpart {
+    background-color: rgb(255, 255, 255);
+    height:25%;
+    padding-right: 300px;
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+
+button {
+    height:50px;
+    width: 200px;
+    background-color: rgb(76, 136, 76);
+    border-radius: 5px;
+    color:white;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.alreadytext {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(25, 153, 14);
+
 }
