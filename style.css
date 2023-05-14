@@ -40,17 +40,56 @@ img[src="odin-lined.png"]{
 
 .firstpart {
     background-color: rgb(225, 229, 231);
-    height:25%;
+    height: 15%;
 }
 
 .firstpart{
     padding-top: 150px;
     padding-right: 300px;
     padding-left: 60px;
+    padding-bottom: 60px;
 }
 
 .text {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight:800;
+}
+
+.secondpart {
+    background-color: rgb(243, 246, 248);
+    height:35%;
+    padding-right: 300px;
+    padding-left: 60px;
+}
+
+.letsdothis {
+    font-size:28px;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    gap: 100px;
+    margin-bottom:17px;
+}
+
+.input {
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+label {
+    font-size: 15px;
+    font-weight:600;
+}
+
+input {
+    height: 25px;
+    width: 350px;
+}
+
+input:focus {
+    border-color:blue;
 }
