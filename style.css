@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    margin:0;
+}
+
+.imgcontainer {
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    width:40%;
+}
+
+.shadedpart {
+    background:rgba(0,0,0,0.5);
+    position: relative;
+    top: 170px;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img[src="odin-lined.png"]{
+    height:150px;
+}
+
+.odin-heading {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color: white;
+}
