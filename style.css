@@ -31,3 +31,26 @@ img[src="odin-lined.png"]{
     font-family: 'Konkhmer Sleokchher', cursive;
     color: white;
 }
+
+.notimage {
+    display:flex;
+    flex-direction:column;
+    width:60%;
+}
+
+.firstpart {
+    background-color: rgb(225, 229, 231);
+    height:25%;
+}
+
+.firstpart{
+    padding-top: 150px;
+    padding-right: 300px;
+    padding-left: 60px;
+}
+
+.text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight:800;
+}
